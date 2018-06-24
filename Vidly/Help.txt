@@ -1,0 +1,13 @@
+﻿On Tools-> Package Manager Console
+PM>enable-migrations
+
+
+Add a Migrations
+PM> add-migration MigrationName
+
+force a migration(override a migration)
+PM> add-migration MigrationName -force
+
+Apply Migrations to the DB
+PM>update-database
+
